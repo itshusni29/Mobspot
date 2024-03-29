@@ -1,0 +1,64 @@
+/* CSS for bottom section */
+.bottom-section {
+    margin: 0 20px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .bottom-section h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #cf74ee; /* Change color of h1 */
+  }
+  
+  .bottom-section p {
+    font-size: 14px;
+    color: #000000; /* Change color of p */
+  }
+  
+  /* Rounded input */
+  .rounded-input {
+    border-radius: 20px;
+  }
+  
+  ion-input {
+    margin-bottom: 10px;
+  }
+  
+  ion-button {
+    margin-top: 10px;
+  }
+  
+  /* Divider */
+  .divider {
+    height: 1px;
+    background: linear-gradient(to bottom right, #cf74ee, #0f7af5);
+    margin: 20px 0;
+  }
+  
+  /* Title for alternative login */
+  .alternative-login-title {
+    text-align: center;
+  }
+  
+  .alternative-login-title p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  /* CSS for login icons */
+  .login-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .login-icons ion-icon {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #cf74ee;
+  }
+  
