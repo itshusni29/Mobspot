@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms'; // Import FormsModule here
 import { RouteReuseStrategy } from '@angular/router';
 import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 import { AppComponent } from './app.component';
@@ -14,7 +15,8 @@ import { LoginComponent } from './login/login.component'; // Import LoginCompone
   imports: [
     BrowserModule,
     IonicModule.forRoot(),
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule // Add FormsModule here
   ],
   providers: [
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }

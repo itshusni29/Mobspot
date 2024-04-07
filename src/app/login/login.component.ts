@@ -17,7 +17,7 @@ export class LoginComponent {
   login() {
     // Validate username and password (this is just a basic example)
     if (this.username === 'admin' && this.password === 'password') {
-      // Navigate to the home page or any other desired page upon successful login
+      // Navigate to the home page upon successful login
       this.router.navigate(['/home']);
     } else {
       // Display error message for invalid credentials
